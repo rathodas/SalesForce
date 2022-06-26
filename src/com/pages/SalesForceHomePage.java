@@ -34,6 +34,8 @@ public class SalesForceHomePage {
 				driver.switchTo().window(window);
 			}
 		}
+		driver.switchTo().window(parentWindow);
+		driver.switchTo().defaultContent();
 	}
 
 
